@@ -2,3 +2,4 @@
 04/03/2020 : création du repository sur git.
 05/03/2020 : choix et description du sujet et communication du sujet aux professeurs.
 06/03/2020 : ajout d'un second collaborateur sur le git.
+20/03/2020 : téléchargement des données et premier traitement sur le fichier.
