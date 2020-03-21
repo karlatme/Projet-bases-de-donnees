@@ -1,0 +1,31 @@
+Le modèle conceptuel de notre base est le suivant.
+
+NB : Ce modèle va très certainement évoluer, des relations seront très certainement modifié, ajouté ou supprimé en fonction des besoins et des données que l’on réussira à récupérer et traiter. De même en ce qui concerne les clés, les attributs …
+Notons également que notre base de données sera en Anglais pour deux raisons principales :
+-	Toutes les informations que l’on traite sont en anglais.
+-	On travaille sur une base de données à l’échelle international, il est donc censé d’utiliser la langue officielle international.
+
+Légende : on met en titre la relation, puis on y rajoute ses attributs en liste en dessous. Les attributs surlignés seront les clés de la relation.
+Les relations et ses composantes :
+
+Accident Information
+  -	Date
+  -	State
+  -	Country
+  -	Localisation 
+  -	Investigation Type
+    o	Accident or Incident (on entend par incident un problème technique)
+  -	Injury Type 
+    o	Fatal or Non-Fatal (s’il y a eu des victimes ou non)
+
+Aircraft
+  -	Category
+  -	Engine Type (le type du moteur)
+  -	Damage 
+    o	Minor, Substantial or Destroyed (le niveau de dommage due à l’accident)
+
+Event details
+  -	Weather Condition 
+   o	VMC or IMC (bonne ou mauvaise condition météorologique) 
+  -	Broad Phase of fligth 
+    o	Il y aura également plusieurs possibilités.
