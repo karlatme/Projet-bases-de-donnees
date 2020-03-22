@@ -11,15 +11,12 @@ Légende : on met en titre la relation, puis on y rajoute ses attributs en-desso
 Les relations et ses composantes :
 
 Accident Information
-  -	Date
+  -	Event ID
+  - Date
   -	Location
   - Country
   -	Latitude
   - Longitude
-  -	Investigation Type
-    o	Accident or Incident (on entend par incident un problème technique)
-  -	Injury Type 
-    o	Fatal or Non-Fatal (s’il y a eu des victimes ou non)
 
 Aircraft
   -	Category
@@ -28,7 +25,11 @@ Aircraft
     o	Minor, Substantial or Destroyed (le niveau de dommage due à l’accident)
 
 Event details
-  -	Weather Condition 
+  -	Investigation Type
+    o	Accident or Incident (on entend par incident un problème technique)
+  -	Injury Type 
+    o	Fatal or Non-Fatal (s’il y a eu des victimes ou non)
+  - Weather Condition 
    o	VMC or IMC (bonne ou mauvaise condition météorologique) 
   -	Broad Phase of fligth 
     o	Il y aura également plusieurs possibilités.
