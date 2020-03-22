@@ -12,9 +12,10 @@ Les relations et ses composantes :
 
 Accident Information
   -	Date
-  -	State
-  -	Country
-  -	Localisation 
+  -	Location
+  - Country
+  -	Latitude
+  - Longitude
   -	Investigation Type
     o	Accident or Incident (on entend par incident un problème technique)
   -	Injury Type 
