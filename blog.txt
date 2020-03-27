@@ -5,4 +5,4 @@
 20/03/2020 : téléchargement des données et premier traitement sur les données.
 22/03/2020 : création de la base de données sur Access.
 23/03/2020 : ajout de la base de données non incrémentée Access sur git.
-24/03/2020 : modifications de la base de données (problèmes de séparateurs et d'incrémentation)
+24/03/2020 : modifications de la base de données (problèmes de séparateurs et d'incrémentation) toujours en cours
