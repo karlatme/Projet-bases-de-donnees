@@ -7,3 +7,4 @@
 23/03/2020 : ajout de la base de données non incrémentée Access sur git.
 24/03/2020 : modifications de la base de données (problèmes de séparateurs et d'incrémentation) toujours en cours.
 27/03/2020 : modification de la base de données pour respecter la 3 ème forme normal sur la table "Event".
+05/05/2020 : création de la base de données psql de façon locale (sur mon ordinateur). 
