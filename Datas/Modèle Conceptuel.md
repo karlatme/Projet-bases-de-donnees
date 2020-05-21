@@ -1,14 +1,15 @@
-Le modèle conceptuel de notre base est le suivant.
+# MODELE CONCEPTUEL
 
-NB : Ce modèle va très certainement évoluer, des relations seront très certainement modifiées, ajoutées ou supprimées en fonction des besoins et des données que l’on réussira à récupérer et traiter. De même en ce qui concerne les clés, les attributs …
-Notons également que notre base de données sera en Anglais pour deux raisons principales :
+Cette base de données sera en Anglais pour deux raisons principales :
   -	Toutes les informations que l’on traite sont en anglais.
   -	On travaille sur une base de données à l’échelle international, il est donc censé d’utiliser la langue officielle international.
 
-Légende : on met en titre la relation, puis on y rajoute ses attributs en-dessous. Les attributs avec une étoile à côté de leurs noms seront les clés de la relation.
+_Légende :_ 
+On met en titre la relation, puis on y rajoute ses attributs en-dessous. 
+Les attributs avec une étoile à côté de leurs noms seront les clés de la relation.
 
 
-Les relations et ses composantes :
+_Relations et composantes :_
 
 Accident Information
   -	Event ID
