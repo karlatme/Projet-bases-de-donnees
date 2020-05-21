@@ -4,33 +4,45 @@ Cette base de données sera en Anglais pour deux raisons principales :
   -	Toutes les informations que l’on traite sont en anglais.
   -	On travaille sur une base de données à l’échelle international, il est donc censé d’utiliser la langue officielle international.
 
-_Légende :_ 
+_Légende :_
+-
+
 On met en titre la relation, puis on y rajoute ses attributs en-dessous. 
-Les attributs avec une étoile à côté de leurs noms seront les clés de la relation.
+
+Les attributs avec [PK] à côté de leurs noms seront les clés de la relation.
+
+Les attributs avec [FK] à côté de leurs noms sont les clés étrangère des relations.
 
 
 _Relations et composantes :_
+-
 
-Accident Information
-  -	Event ID
-  - Date
-  -	Location
-  - Country
-  -	Latitude
-  - Longitude
+** EVENT :**
+- Date
+- Location
 
-Aircraft
-  -	Category
-  -	Engine Type (le type du moteur)
-  -	Damage 
-    o	Minor, Substantial or Destroyed (le niveau de dommage due à l’accident)
+** EVENT DETAILS : **
+- Injurity Severity
+- Investigation Type
+- Aircraft Damage
+- Weather Condition
+- Broad Phase
 
-Event details
-  -	Investigation Type
-    o	Accident or Incident (on entend par incident un problème technique)
-  -	Injury Type 
-    o	Fatal or Non-Fatal (s’il y a eu des victimes ou non)
-  - Weather Condition 
-   o	VMC or IMC (bonne ou mauvaise condition météorologique) 
-  -	Broad Phase of fligth 
-    o	Il y aura également plusieurs possibilités.
+ ** AIRPORT **
+ - Name
+ - Country
+ 
+ ** AIRCRAFT : **
+ - Aircraft category
+ - Model
+ 
+ ** AIRCRAFT DETAILS : **
+ - Number of engine
+ - Engine type
+ - Maker
+ - FAR
+ - Schedule
+ 
+ 
+ 
+
