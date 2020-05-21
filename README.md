@@ -1,6 +1,6 @@
-# Projet-bases-de-donnees : SECURITE AERIENNE
+# Projet bases de données : 
 
- _Le_ _sujet_
+ _Le sujet : Sécurité Aérienne_
  -
 
 L'objectif est de construire une base de données regroupant les différents types d'incidents aériens et de les croiser avec les compagnies aériennes, les pays, les années, et bien d'autres informations pour regarder quels sont les caractéristiques de ces accidents.
