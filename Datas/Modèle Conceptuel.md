@@ -17,26 +17,26 @@ Les attributs avec [FK] à côté de leurs noms sont les clés étrangère des r
 _Relations et composantes :_
 -
 
-** EVENT :**
+**EVENT :**
 - Date
 - Location
 
-** EVENT DETAILS : **
+**EVENT DETAILS :**
 - Injurity Severity
 - Investigation Type
 - Aircraft Damage
 - Weather Condition
 - Broad Phase
 
- ** AIRPORT **
+ **AIRPORT :**
  - Name
  - Country
  
- ** AIRCRAFT : **
+ **AIRCRAFT :**
  - Aircraft category
  - Model
  
- ** AIRCRAFT DETAILS : **
+ **AIRCRAFT DETAILS :**
  - Number of engine
  - Engine type
  - Maker
