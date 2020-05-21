@@ -29,8 +29,8 @@ _Description des fichiers du dépôt_
 -
 * _blog.txt_ : carnet de bord du projet.
 * _Datas_ : dossier regroupant l'ensemble des fichiers relatifs aux données (conception de la base de données, netoyage et peuplement). 
- * Modèle conceptuel : Fichier texte expliquant la base de données.
- * create_db.sql : script pgsql de la base de données.
- * Aviationdata : données stockées dans un fichier csv.
- * MPD : Architecture de la base de données.
+  * Modèle conceptuel : Fichier texte expliquant la base de données.
+  * create_db.sql : script pgsql de la base de données.
+  * Aviationdata : données stockées dans un fichier csv.
+  * MPD : Architecture de la base de données.
 * _Django_ : contient tous les fichiers necessaire au fonctionnement de l'application.
