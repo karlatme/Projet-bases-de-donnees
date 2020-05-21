@@ -3,7 +3,7 @@
  _Le sujet : Sécurité Aérienne_
  -
 
-L'objectif est de construire une base de données regroupant les différents types d'incidents aériens et de les croiser avec les compagnies aériennes, les pays, les années, et bien d'autres informations pour regarder quels sont les caractéristiques de ces accidents.
+L'objectif est de construire une base de données regroupant les différents types d'incidents aériens et de les croiser avec les compagnies aériennes, les pays, les années, et bien d'autres informations pour regarder quelles sont les caractéristiques de ces accidents.
 
 _Les contributeurs_
 -
