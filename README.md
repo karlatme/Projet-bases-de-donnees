@@ -32,5 +32,5 @@ _Description des fichiers du dépôt_
   * Modèle conceptuel : Fichier texte expliquant la base de données.
   * create_db.sql : script pgsql de la base de données.
   * Aviationdata : données stockées dans un fichier csv.
-  * MPD : Architecture de la base de données.
+  * MPD : Architecture de la base de données sur ArchiectSQL.
 * _Django_ : contient tous les fichiers nécessaires au fonctionnement de l'application.
