@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.8">
+ <project-name>MPD</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="3c1b1096-587b-4ac8-882e-b60e6e280ffd" name="Aircraft" objectType="TABLE" physicalName="Aircraft" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="f248d315-af26-4fe9-b5ac-22c28863669e" autoIncrement="false" autoIncrementSequenceName="Aircraft_registration_name_seq" defaultValue="" name="registration_number" nullable="0" physicalName="registration_number" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="6079f1a5-f110-4fdc-9f65-f01f26ba16e7" autoIncrement="false" autoIncrementSequenceName="Event_accident_number_seq" defaultValue="" name="accident_number" nullable="0" physicalName="accident_number" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Numéro de l&apos;acccident</remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="3cc40d96-745a-43db-af1f-259ac867110a" autoIncrement="false" autoIncrementSequenceName="Event_event_ID_seq" defaultValue="" name="event_ID" nullable="0" physicalName="event_ID" precision="0" primaryKeySeq="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>ID de l&apos;accident</remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="c206eeb7-c8a6-4173-a1ed-f2259ea53c6b" autoIncrement="false" autoIncrementSequenceName="Aircraft_engine_type_seq" defaultValue="" name="engine_type" nullable="1" physicalName="engine_type" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL6" populated="true" UUID="b1a55ff0-8932-4932-86a5-0cda2d161397" autoIncrement="false" autoIncrementSequenceName="Aircraft_make_seq" defaultValue="" name="make" nullable="1" physicalName="make" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL7" populated="true" UUID="29d49591-2873-4ca2-8623-183d27980f70" autoIncrement="false" autoIncrementSequenceName="Aircraft_aircraft_category_seq" defaultValue="" name="aircraft_category" nullable="1" physicalName="aircraft_category" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Type de transport aérien</remarks>
+    </column>
+    <column id="COL8" populated="true" UUID="67341523-e330-4f34-9ad5-4c3cf4f59bb2" autoIncrement="false" autoIncrementSequenceName="Aircraft_model_seq" defaultValue="" name="model" nullable="1" physicalName="model" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Modèle de l&apos;appareil</remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="0d001dac-e6fd-49e9-94ee-54d40d4489fc" autoIncrement="false" autoIncrementSequenceName="Aircraft_number_engine_seq" defaultValue="" name="number_engine" nullable="1" physicalName="number_engine" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="6b5b1908-f6f9-442a-82fe-616a0bb56f31" autoIncrement="false" autoIncrementSequenceName="Aircraft_FAR_seq" defaultValue="" name="FAR" nullable="1" physicalName="FAR" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="a70d2946-1c69-4ed2-ac97-68c63b326f50" autoIncrement="false" autoIncrementSequenceName="Aircraft_schedule_seq" defaultValue="" name="schedule" nullable="1" physicalName="schedule" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX12" populated="true" UUID="3a216813-71bb-459b-86dd-fe85f2527434" clustered="false" name="Aircraft_pk" physicalName="aircraft_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC13" populated="true" UUID="f3afae0f-b627-4198-a07d-6da33a8e10cb" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="registration_number" physicalName="registration_number" />
+     <index-column id="IDC14" populated="true" UUID="f18a2cc8-4a12-41c8-9426-c346810392e3" ascendingOrDescending="UNSPECIFIED" column-ref="COL3" name="accident_number" physicalName="accident_number" />
+     <index-column id="IDC15" populated="true" UUID="4b7cc8e9-cc15-4222-99be-904546c6ca18" ascendingOrDescending="UNSPECIFIED" column-ref="COL4" name="event_ID" physicalName="event_ID" />
+    </index>
+    <index id="IDX16" populated="true" UUID="0e818ee8-29e2-459d-9451-1cccc27786df" clustered="true" name="Aircraft_idx" physicalName="aircraft_idx" primaryKeyIndex="false" unique="false" >
+     <index-column id="IDC17" populated="true" UUID="324e3616-deac-4213-bdef-3de2ae6ca649" ascendingOrDescending="ASCENDING" column-ref="COL7" name="aircraft_category" physicalName="aircraft_category" />
+    </index>
+    <index id="IDX18" populated="true" UUID="c37503d4-2158-4c45-8bec-71ece61ba4ac" clustered="true" name="Aircraft_idx1" physicalName="aircraft_idx1" primaryKeyIndex="false" unique="false" >
+     <index-column id="IDC19" populated="true" UUID="aa9803bf-8ce4-4075-92bd-11547707b5df" ascendingOrDescending="UNSPECIFIED" column-ref="COL7" name="aircraft_category" physicalName="aircraft_category" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB20" populated="true" UUID="45ec11c7-46eb-40d2-b089-9103f49c10ef" name="Event" objectType="TABLE" physicalName="Event" >
+   <remarks></remarks>
+   <folder id="FOLTAB201" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL21" populated="true" UUID="c4ae3555-1b50-48b4-b793-9f323b61047e" autoIncrement="false" autoIncrementSequenceName="Event_event_ID_seq" defaultValue="" name="event_ID" nullable="0" physicalName="event_ID" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>ID de l&apos;accident</remarks>
+    </column>
+    <column id="COL22" populated="true" UUID="712117c3-12e0-4edc-a52f-561af817c406" autoIncrement="false" autoIncrementSequenceName="Event_accident_number_seq" defaultValue="" name="accident_number" nullable="0" physicalName="accident_number" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Numéro de l&apos;acccident</remarks>
+    </column>
+    <column id="COL23" populated="true" UUID="cd07589f-7c42-40ac-bc2f-972b42be1dcd" autoIncrement="false" autoIncrementSequenceName="Event_Date_seq" defaultValue="" name="Date" nullable="1" physicalName="Date" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks>Date de l&apos;évènement</remarks>
+    </column>
+    <column id="COL24" populated="true" UUID="b3a1b076-11fd-4373-8c3f-ead8ad5eaa31" autoIncrement="false" autoIncrementSequenceName="Event_Details_broad_phase_seq" defaultValue="" name="broad_phase" nullable="1" physicalName="broad_phase" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Etape durant lequel l&apos;accident a eu lieu</remarks>
+    </column>
+    <column id="COL25" populated="true" UUID="bbb706c6-435d-4dff-889c-a9b4ce3bd287" autoIncrement="false" autoIncrementSequenceName="Event_Details_weather_condition_seq" defaultValue="" name="weather_condition" nullable="1" physicalName="weather_condition" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Condition météorologique</remarks>
+    </column>
+    <column id="COL26" populated="true" UUID="a980b9c0-751f-4348-8acb-cc2e54b80c9d" autoIncrement="false" autoIncrementSequenceName="Event_Details_aircraft_damage_seq" defaultValue="" name="aircraft_damage" nullable="1" physicalName="aircraft_damage" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Etat de l&apos;avion</remarks>
+    </column>
+    <column id="COL27" populated="true" UUID="3039913b-5119-40f9-a575-06ac824fec65" autoIncrement="false" autoIncrementSequenceName="Event_Details_investigation_type_seq" defaultValue="" name="investigation_type" nullable="1" physicalName="investigation_type" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Le type d&apos;investigation</remarks>
+    </column>
+    <column id="COL28" populated="true" UUID="50002195-2a81-4375-bb34-643130756f26" autoIncrement="false" autoIncrementSequenceName="Event_Details_injurity_severity_seq" defaultValue="" name="injurity_severity" nullable="1" physicalName="injurity_severity" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Si il y a eu des morts ou non</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB203" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB202" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB204" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX29" populated="true" UUID="7e86c7ca-d09a-43ca-b7c7-8525fd0855a8" clustered="false" name="Event_pk" physicalName="event_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC30" populated="true" UUID="e1e668f7-31e8-4e8d-a983-80865d2492c7" ascendingOrDescending="UNSPECIFIED" column-ref="COL21" name="event_ID" physicalName="event_ID" />
+     <index-column id="IDC31" populated="true" UUID="62a22889-aeac-40eb-a75e-788fe664fca5" ascendingOrDescending="UNSPECIFIED" column-ref="COL22" name="accident_number" physicalName="accident_number" />
+    </index>
+    <index id="IDX32" populated="true" UUID="df748148-348b-46b8-86f5-e50c6678d1b3" clustered="false" name="Event_idx" physicalName="event_idx" primaryKeyIndex="false" unique="true" >
+     <index-column id="IDC33" populated="true" UUID="47821992-775e-49cb-8030-09c97053eca1" ascendingOrDescending="ASCENDING" column-ref="COL23" name="Date" physicalName="Date" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB34" populated="true" UUID="417dbcd8-cc99-425d-9af4-3b5c500d2996" name="Locations" objectType="TABLE" physicalName="Locations" >
+   <remarks></remarks>
+   <folder id="FOLTAB341" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL35" populated="true" UUID="27fbc774-5dfb-4155-90e1-ce05d8ef9e88" autoIncrement="false" autoIncrementSequenceName="Locations_Location_seq" defaultValue="" name="Location" nullable="0" physicalName="Location" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL36" populated="true" UUID="3ea3a3d0-2516-4c7f-8184-b39c278935f0" autoIncrement="false" autoIncrementSequenceName="Event_event_ID_seq" defaultValue="" name="event_ID" nullable="0" physicalName="event_ID" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>ID de l&apos;accident</remarks>
+    </column>
+    <column id="COL37" populated="true" UUID="de93eca4-0680-4b46-b00f-86e2a7fcd104" autoIncrement="false" autoIncrementSequenceName="Event_accident_number_seq" defaultValue="" name="accident_number" nullable="0" physicalName="accident_number" precision="0" primaryKeySeq="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Numéro de l&apos;acccident</remarks>
+    </column>
+    <column id="COL38" populated="true" UUID="ee1a6e5b-0ff6-4747-8e14-f0cbb2cc3424" autoIncrement="false" autoIncrementSequenceName="Locations_Latitude_seq" defaultValue="" name="Latitude" nullable="1" physicalName="Latitude" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
+     <remarks></remarks>
+    </column>
+    <column id="COL39" populated="true" UUID="539e4256-f53f-453d-9ff6-f435ebdd95ad" autoIncrement="false" autoIncrementSequenceName="Locations_Longitude_seq" defaultValue="" name="Longitude" nullable="1" physicalName="Longitude" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="6" userDefinedTypeUUID="7e55bcd0-7606-4153-b749-9c397f12c4d8" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB343" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB342" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB344" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX40" populated="true" UUID="62b0de6c-d4ef-482c-9704-5bfe497846d1" clustered="false" name="Locations_pk" physicalName="locations_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC41" populated="true" UUID="d620a2d6-ab69-4f88-ad1e-7481ee1603ce" ascendingOrDescending="UNSPECIFIED" column-ref="COL35" name="Location" physicalName="Location" />
+     <index-column id="IDC42" populated="true" UUID="f3f4355e-0270-42a8-b5b6-aa26ec1d8aa8" ascendingOrDescending="UNSPECIFIED" column-ref="COL36" name="event_ID" physicalName="event_ID" />
+     <index-column id="IDC43" populated="true" UUID="f0be92f3-b655-4b43-ba51-020e5bf84fd8" ascendingOrDescending="UNSPECIFIED" column-ref="COL37" name="accident_number" physicalName="accident_number" />
+    </index>
+    <index id="IDX44" populated="true" UUID="986b8626-2751-4708-9b67-2ec808214fdc" clustered="false" name="Locations_idx" physicalName="locations_idx" primaryKeyIndex="false" unique="true" >
+     <index-column id="IDC45" populated="true" UUID="c0378bd9-bbc9-42ca-bb60-43225f585fe3" ascendingOrDescending="ASCENDING" column-ref="COL35" name="Location" physicalName="Location" />
+    </index>
+    <index id="IDX46" populated="true" UUID="f008602b-3038-4b79-955f-8da5a21254de" clustered="true" name="Locations_idx1" physicalName="locations_idx1" primaryKeyIndex="false" unique="true" >
+     <index-column id="IDC47" populated="true" UUID="2bb4263a-c34a-43bd-a58a-f517d2a8e7d4" ascendingOrDescending="ASCENDING" column-ref="COL35" name="Location" physicalName="Location" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB48" populated="true" UUID="72881def-8501-45c4-857f-7753a08d12d9" name="Airport" objectType="TABLE" physicalName="Airport" >
+   <remarks></remarks>
+   <folder id="FOLTAB481" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL49" populated="true" UUID="d0a527a6-f88b-427c-a535-1f05a993b4ea" autoIncrement="false" autoIncrementSequenceName="Airport_Code_seq" defaultValue="" name="Code" nullable="0" physicalName="Code" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL50" populated="true" UUID="75215bfb-06cc-4885-8e47-d45aabc17557" autoIncrement="false" autoIncrementSequenceName="Aircraft_registration_name_seq" defaultValue="" name="registration_number" nullable="0" physicalName="registration_number" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL51" populated="true" UUID="4c84d287-f107-418f-a43e-84e65bb59cf7" autoIncrement="false" autoIncrementSequenceName="Event_accident_number_seq" defaultValue="" name="accident_number" nullable="0" physicalName="accident_number" precision="0" primaryKeySeq="2" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Numéro de l&apos;acccident</remarks>
+    </column>
+    <column id="COL52" populated="true" UUID="e6f686a5-0b78-4a56-b374-6ca784f35e35" autoIncrement="false" autoIncrementSequenceName="Event_event_ID_seq" defaultValue="" name="event_ID" nullable="0" physicalName="event_ID" precision="0" primaryKeySeq="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>ID de l&apos;accident</remarks>
+    </column>
+    <column id="COL53" populated="true" UUID="69ee1547-cfd8-4fe4-b191-c72e149897d5" autoIncrement="false" autoIncrementSequenceName="Airport_Country_seq" defaultValue="" name="Country" nullable="1" physicalName="Country" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL54" populated="true" UUID="fefae18d-e8e5-4579-b54a-b1bd16319b80" autoIncrement="false" autoIncrementSequenceName="Airport_Name_seq" defaultValue="" name="Name" nullable="1" physicalName="Name" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB483" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB482" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB484" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX55" populated="true" UUID="534ee902-2420-4327-9d58-3e16e2db801d" clustered="false" name="Airport_pk" physicalName="airport_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC56" populated="true" UUID="8bb141e9-426d-4ad2-8571-dc13e0d4db4c" ascendingOrDescending="UNSPECIFIED" column-ref="COL49" name="Code" physicalName="Code" />
+     <index-column id="IDC57" populated="true" UUID="384c7f2d-87cf-4ae7-a93b-b807d549b1b8" ascendingOrDescending="UNSPECIFIED" column-ref="COL50" name="registration_number" physicalName="registration_number" />
+     <index-column id="IDC58" populated="true" UUID="18881b31-a920-4d55-9443-1ddf57340883" ascendingOrDescending="UNSPECIFIED" column-ref="COL51" name="accident_number" physicalName="accident_number" />
+     <index-column id="IDC59" populated="true" UUID="d45ab808-df19-42d9-b0c0-85ae937282ee" ascendingOrDescending="UNSPECIFIED" column-ref="COL52" name="event_ID" physicalName="event_ID" />
+    </index>
+    <index id="IDX60" populated="true" UUID="d43f04ff-0799-485c-80fc-4a6d69a244ca" clustered="true" name="Airport_idx" physicalName="airport_idx" primaryKeyIndex="false" unique="true" >
+     <index-column id="IDC61" populated="true" UUID="c8ff84ef-19cf-4638-83bd-d888490da109" ascendingOrDescending="ASCENDING" column-ref="COL54" name="Name" physicalName="Name" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL62" populated="true" UUID="a699d91b-3a3b-42c1-806a-ac645bce6b37" deferrability="7" deleteRule="3" fk-table-ref="TAB48" fkCardinality="7" identifying="true" name="Aircraft_Airport_fk" physicalName="aircraft_airport_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP63" populated="true" UUID="ee625ffa-a3f7-4cb2-a2e4-4628702dc615" fk-column-ref="COL50" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+    <column-mapping id="CMP64" populated="true" UUID="d03f8606-854a-4560-abae-d95223cb5a9f" fk-column-ref="COL51" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL3" />
+    <column-mapping id="CMP65" populated="true" UUID="8cc101db-221f-4132-9f46-40ebeecbafa3" fk-column-ref="COL52" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL4" />
+   </relationship>
+   <relationship id="REL66" populated="true" UUID="436ce1d2-0d6c-4efa-a17c-664c0c802035" deferrability="7" deleteRule="3" fk-table-ref="TAB1" fkCardinality="6" identifying="true" name="Event_Aircraft_fk" physicalName="event_aircraft_fk" pk-table-ref="TAB20" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP67" populated="true" UUID="7d21e0a8-6672-4133-a087-6cb665a1b3ed" fk-column-ref="COL4" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL21" />
+    <column-mapping id="CMP68" populated="true" UUID="8051afb1-0306-461d-97d1-c389c9a78a08" fk-column-ref="COL3" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL22" />
+   </relationship>
+   <relationship id="REL69" populated="true" UUID="3f9a2c9a-505d-41c9-a9cb-e46b0cc76097" deferrability="7" deleteRule="3" fk-table-ref="TAB34" fkCardinality="7" identifying="true" name="Event_Locations_fk" physicalName="event_locations_fk" pk-table-ref="TAB20" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP70" populated="true" UUID="95488379-b0e8-4e43-b23e-9beb2c445b27" fk-column-ref="COL36" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL21" />
+    <column-mapping id="CMP71" populated="true" UUID="78a7e147-c14d-4371-8f40-19179d147616" fk-column-ref="COL37" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL22" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="public"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="172" y="123" bgColor="0xdfedce" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB20" x="183" y="541" bgColor="0xeec994" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB34" x="1057" y="582" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB48" x="1073" y="163" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL66" pkConnection="0.8173913043478261" fkConnection="0.14344262295081966" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL69" pkConnection="0.5157232704402516" fkConnection="0.46846846846846846" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL62" pkConnection="0.518324607329843" fkConnection="0.4645669291338583" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
