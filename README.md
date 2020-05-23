@@ -28,7 +28,7 @@ _Les contraintes impératives_
 _Description des fichiers du dépôt_
 -
 * _blog.txt_ : carnet de bord du projet.
-* _Datas_ : dossier regroupant l'ensemble des fichiers relatifs aux données (conception de la base de données, nettoyage et peuplement). 
+* _Datas_ : dossier regroupant l'ensemble des fichiers relatifs aux traitements des données (conception de la base de données, nettoyage et peuplement). 
   * Modèle conceptuel : Fichier texte expliquant la base de données.
   * create_db.sql : script pgsql de la base de données.
   * Aviationdata : données stockées dans un fichier csv.
