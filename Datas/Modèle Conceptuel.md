@@ -19,42 +19,39 @@ _Relations et composantes :_
 
 **EVENT :**
 - Date
-- Location
+- Location [FK]
 - Event ID [PK]
-- Aircraft number [PK]
-
-**EVENT DETAILS :**
+- Aircraft damage
+- Accident number
 - Injurity Severity
 - Investigation Type
-- Aircraft Damage
-- Weather Condition
+- Weather condition
 - Broad Phase
-- Event ID [PK]
-- Accident number [FK]
+
 
  **AIRPORT :**
  - Name
  - Country
  - Airport code [PK]
- - Registration aircraft [FK]
- - Accident number [FK]
- - Event ID [FK]
- 
+
+
  **AIRCRAFT :**
  - Aircraft category
  - Model
- - Registration aircraft [PK]
- - Accident number [FK]
- - Event ID [FK]
- 
- **AIRCRAFT DETAILS :**
- - Number of engine
- - Engine type
- - Maker
- - FAR
+ - Registration number [PK]
+ - Number Engine
+ - Engine Type
+ - Make
+ - FAR description
  - Schedule
- - Accident number [PK]
  - Event ID [FK]
+ - Code [FK]
+ 
+ **LOCATIONS :**
+ - Location [PK]
+ - Latitude
+ - Longitude
+
  
  
  
