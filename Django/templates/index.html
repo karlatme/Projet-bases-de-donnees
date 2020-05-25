@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Site des incidents d'aviation</title>
+
+    {% load static %}
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'appli/css/bootstrap.min.css' %}" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'appli/css/business-casual.css' %}" />
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="brand">Incidents d'aviation</div>
+    <div class="address-bar">Partout sur la planète</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Basculer la navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Incidents d'aviation</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="recherche/">Recherches</a>
+                    </li>
+                    <li>
+                        <a class="dropbtn">Base de données<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <div class="dropdown-content">
+                              <a href="appli/aicrafts/">aircrafts</a>
+                              <a href="appli/airports/">airports</a>
+                              <a href="appli/events/">events</a>
+                              <a href="appli/locations/">locations</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="credits/">Crédits</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicateurs -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper pour les diapos -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="static/appli/img/maxresdefault.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="static/appli/img/Los_Rodeos__105076___fr_mux__1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="static/appli/img/960x0.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controleurs -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>Bienvenue sur notre application sur</small>
+                    </h2>
+                    <h1 class="brand-name">Les incidents d'aviation</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>Par
+                            <strong>Karl ATME & Thomas NOEL</strong>
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Cette application a été créée dans le but de mettre à disposition des informations pertinentes sur
+                        <strong>les incidents d'aviation</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="static/appli/img/NR20200521-img-fbx.jpg" alt="">
+                    <hr class="visible-xs">
+                    <p> </p>
+                    <p>   Vous trouverez ici une grande quantité d'informations sur l'aviation dans le monde, aussi bien sur de simples incidents techniques que sur de réels crashs d'avions.</p>
+                    <p>Ces données ont été collectées par <a href="https://www.ntsb.gov/_layouts/ntsb.aviation/index.aspx" target="_blank">le site du National Transportation Safety Board</a> qui met à disposition ses bases de données en téléchargement libre.</p>
+                    <p>Cet organisme reçoit des informations de plusieurs acteurs locaux de la sécurité, des organismes de sauvetage et de personnes voulant contribuer au NTSB.
+                    Ces données remontent aux années 80 et sont régulièrement mises à jour par le NTSB</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Recherchez vous-même
+                        <strong>toutes les informations dont vous avez besoins sur notre application</strong>
+                    </h2>
+                    <hr>
+                    <p>Notre application va vous permettre de visualiser simplement la base de données mais aussi d'accéder à des informations précises de manière simple et rapide!</p>
+                    <p>Ainsi la base de données brute est disponible au lien du même nom. Je vous suggère d'interroger cette base via le lien de recherche.</p>
+                    <p>N.B. : vous pouvez vous aussi contribuer à la base en envoyant vos renseignements, au sujet de problèmes liés à l'aviation, au NTSB qui analysera ensuite vos informations pour les entrer dans la base.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Our Website 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="{% static 'appli/js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'appli/js/bootstrap.min.js' %}"></script>
+
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 2000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
